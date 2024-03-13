@@ -187,3 +187,30 @@ footer {
   margin-left: auto;
   margin-right: auto;
 }
+@media only screen and (width < 1200px) {
+  body {
+    font-size: small;
+  }
+
+  .wrapper {
+    max-width: 90vw;
+  }
+
+  h2 {
+    font-size: large;
+  }
+
+  .hero {
+    border-top: solid gray;
+    border-bottom: solid gray;
+    width: 90vw;
+  }  
+
+
+  .radio-reset-submit {
+    display: grid;
+    gap: 1em;
+  }
+
+
+}
