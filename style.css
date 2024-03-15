@@ -47,12 +47,13 @@ main {
 
 .hero {
   border-top: solid gray;
-  border-bottom: solid gray;
-  width: 50vw;
-}
+  border-bottom: solid gray;}
 
 main {
   padding: 1.5rem;
+}
+main img {
+  max-width: 45vw;
 }
 
 h2 {
@@ -180,8 +181,8 @@ nav a:hover,
 }
 
 footer {
-  background-color: darkorange;
-  color: white;
+  background-color: #ff8c00;
+  color: 0073FF;
   padding: 1rem;
   font-weight: bold;
   margin-left: auto;
@@ -203,7 +204,7 @@ footer {
   .hero {
     border-top: solid gray;
     border-bottom: solid gray;
-    width: 90vw;
+    width: 100vw;
   }  
 
 
